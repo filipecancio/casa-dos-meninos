@@ -20,18 +20,32 @@ section h1{
 #section-help{
     background-color: #2B569B;
 }
-#section-help h1{
+.cm-btn,
+#section-help h1,
+#section-help p,
+#section-contact p,
+#section-contact a,
+footer{
     color: #F2F2F2;
 }
+.cm-btn,
 #section-contact{
     background-color: #62579B;
 }
 #section-contact h1{
     color: #E1B018;
 }
+button{
+    background-color: #E1B018;
+}
 /*SPACE*/
 section{
     padding: 1vh 5vw;
+}
+.cm-btn,
+button{
+    padding: 10px 10px;
+    border-radius: 20px;
 }
 /*FLEX*/
 body > *{
