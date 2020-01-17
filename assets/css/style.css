@@ -1,3 +1,4 @@
+/*FONT*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Baloo+Bhaijaan|Quicksand&display=swap');
 
 p,a,button{
@@ -6,16 +7,33 @@ p,a,button{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Baloo Bhai', cursive;
 }
+/*COLOR*/
 body{
     background-color: #F2F2F2;
 }
 footer{
     background-color: #62579B;
 }
-
+section h1{
+    color: #2B569B;
+}
 #section-help{
     background-color: #2B569B;
 }
+#section-help h1{
+    color: #F2F2F2;
+}
 #section-contact{
     background-color: #62579B;
+}
+#section-contact h1{
+    color: #E1B018;
+}
+/*SPACE*/
+section{
+    padding: 1vh 5vw;
+}
+/*FLEX*/
+body > *{
+    display: flex;
 }
