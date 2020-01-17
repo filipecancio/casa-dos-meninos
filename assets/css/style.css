@@ -1,7 +1,8 @@
 /*FONT*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Baloo+Bhaijaan|Quicksand&display=swap');
 
-p,a,button,nav a {
+p,a,button,header,
+header *{
     font-family: 'Quicksand', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
@@ -30,7 +31,10 @@ header,
 #section-help p,
 #section-contact p,
 #section-contact a,
-nav a,
+#section-contact a:hover,
+header,
+header *,
+header *:hover,
 footer{
     color: #F2F2F2;
 }
@@ -60,11 +64,16 @@ section{
     padding: 10vh 5vw;
 }
 .cm-btn,
+.cm-btn:hover,
 button{
     padding: 10px 10px;
     border-radius: 20px;
 }
-/*FLEX*/
+/*DISPLAY*/
 body > *{
     display: flex;
+}
+/*EFECTS*/
+nav a{
+    transition: 3s;
 }

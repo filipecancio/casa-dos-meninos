@@ -7,24 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Casa dos Meninos</title>
     <link rel="shortcut icon" href="./assets/ico/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <script src="https://kit.fontawesome.com/ae0367f9e3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <a>
-            <img src="./assets/png/logo.png" alt="Logo da Casa dos Meninos - Uma Casa com braços ao redor de uma silhueta humana">
+    <header class="navbar navbar-expand-md d-flex justify-content-around">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+          </button>
+        <a class="navbar-brand" href="#">
+            <img src="./assets/png/logo.png"
+                alt="Logo da Casa dos Meninos - Uma Casa com braços ao redor de uma silhueta humana">
         </a>
-        <nav>
-            <a href="#section-slide">Conheça a Associação</a>
-            <a href="#section-about">Quem Somos</a>
-            <a href="#section-help">Como Posso Ajudar?</a> 
-            <a href="#section-news">Notícias</a> 
-            <a href="#section-contact">Contato</a>
+        <nav class="collapse navbar-collapse mr-auto mt-2 mt-lg-0" id="navbarText">
+            <a class="nav-link" href="#section-slide">Conheça a Associação</a>
+            <a class="nav-link" href="#section-about">Quem Somos</a>
+            <a class="nav-link"  href="#section-help">Como Posso Ajudar?</a>
+            <a class="nav-link" href="#section-news">Notícias</a>
+            <a class="nav-link" href="#section-contact">Contato</a>
         </nav>
         <a class="cm-btn" href="#">Associar</a>
+        
     </header>
     <section id="section-slide">
         <h1>Associe e ajude crianças<br />e adolecentes </h1>
@@ -115,7 +122,9 @@
             <p>(31) 3382-0697</p>
         </div>
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.7935977183633!2d-40.84732588554175!3d-14.892815505391603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463b6729530ec9%3A0xac7c419342a1e343!2siZap%20-%20Criar%20Site%20Conquista%2C%20Cria%C3%A7%C3%A3o%20de%20Sites%20Conquista%2C%20Conquista%20Sites%2C%20Loja%20Virtual!5e0!3m2!1spt-BR!2sbr!4v1579230281480!5m2!1spt-BR!2sbr" width="360" height="157" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.7935977183633!2d-40.84732588554175!3d-14.892815505391603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463b6729530ec9%3A0xac7c419342a1e343!2siZap%20-%20Criar%20Site%20Conquista%2C%20Cria%C3%A7%C3%A3o%20de%20Sites%20Conquista%2C%20Conquista%20Sites%2C%20Loja%20Virtual!5e0!3m2!1spt-BR!2sbr!4v1579230281480!5m2!1spt-BR!2sbr"
+                width="360" height="157" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             <a href="">Acesse sua rota aqui</a>
         </div>
     </section>
@@ -127,6 +136,15 @@
             </a>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

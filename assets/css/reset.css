@@ -1,8 +1,8 @@
 *, 
 a:checked,
+a:hover,
 * a,
-* a:checked,
-nav a{
+* a:checked{
 	margin: 0;
 	padding: 0;
 	border: 0;
