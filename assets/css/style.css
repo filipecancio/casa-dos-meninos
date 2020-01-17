@@ -1,7 +1,7 @@
 /*FONT*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Baloo+Bhaijaan|Quicksand&display=swap');
 
-p,a,button{
+p,a,button,nav a {
     font-family: 'Quicksand', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
@@ -14,17 +14,23 @@ body{
 footer{
     background-color: #62579B;
 }
+header .cm-btn,
 section h1{
     color: #2B569B;
 }
+header,
+#section-slide,
 #section-help{
     background-color: #2B569B;
 }
 .cm-btn,
+#section-slide h1,
+#section-slide p,
 #section-help h1,
 #section-help p,
 #section-contact p,
 #section-contact a,
+nav a,
 footer{
     color: #F2F2F2;
 }
@@ -35,12 +41,23 @@ footer{
 #section-contact h1{
     color: #E1B018;
 }
+header .cm-btn,
 button{
     background-color: #E1B018;
 }
+.cm-card{
+    background-color: #ffffff;
+}
 /*SPACE*/
+.cm-card{
+    width: 360px;
+    height: 455px;
+    overflow: hidden;
+    border-radius: 5vmax;
+    border-bottom-right-radius: 0;
+}
 section{
-    padding: 1vh 5vw;
+    padding: 10vh 5vw;
 }
 .cm-btn,
 button{

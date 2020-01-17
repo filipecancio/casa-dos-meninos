@@ -1,4 +1,8 @@
-*, a:checked{
+*, 
+a:checked,
+* a,
+* a:checked,
+nav a{
 	margin: 0;
 	padding: 0;
 	border: 0;
