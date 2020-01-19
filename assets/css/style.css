@@ -46,6 +46,12 @@ footer{
 #section-contact h1{
     color: #E1B018;
 }
+#slide-arrows{
+    color: #E1B018;
+}
+#slide-arrows a:hover{
+    color: #CDCCCC;
+}
 header .cm-btn,
 button{
     background-color: #E1B018;
@@ -55,7 +61,7 @@ button{
 }
 /*SPACE*/
 .cm-card{
-    width: 360px;
+    width: 100%;
     height: 455px;
     overflow: hidden;
     border-radius: 5vmax;
@@ -71,8 +77,12 @@ button{
     border-radius: 20px;
 }
 /*DISPLAY*/
-body > *{
+body > *,
+#slide-1,#section-news{
     display: flex;
+}
+#slide{
+    display: grid;
 }
 /*EFECTS*/
 nav a{
@@ -88,5 +98,22 @@ nav a{
     width: 100%;
     height: 100%;
     background: url('../png/garoto.png') no-repeat bottom;
-    background-size: contain;
+    background-size: cover;
+}#section-about{
+    width: 100%;
+    height: 100%;
+    background: url('../png/sobre-fundo.png') no-repeat bottom;
+    background-size: cover;
+}
+/*FLEX*/
+#slide-1{
+    align-items: center;
+}
+#section-news{
+    flex-direction: column;
+}
+#slide{
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row;
+    gap: 2vmax;
 }
