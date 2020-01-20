@@ -1,8 +1,25 @@
-@media only screen and (min-width:700px) {
-    #section-news{
-        flex-direction: row;
+@media only screen and (min-width:750px) {
+    /*SPACE*/
+    header,
+    section,
+    #slide-1{
+        padding: 15vmax;
     }
     #slide{
+        width: 50vw;
+        overflow: hidden;
+    }
+    .cm-card{
+        width: 200px;
+        height: 300px
+    }
+    /*FLEX*/
+    #section-news,
+    #section-contact{
+        flex-direction: row;
+    }
+    #slide,
+    #partners{
         grid-auto-flow: column;
     }
 }
