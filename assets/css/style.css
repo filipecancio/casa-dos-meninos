@@ -8,6 +8,19 @@ header *{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Baloo Bhai', cursive;
 }
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    font-size: small;
+}
+.cm-card h1{
+    font-size: medium;
+}
+.cm-card p{
+    font-size: medium;
+}
 /*COLOR*/
 html,body,hr{
     background-color: #F2F2F2;
@@ -46,9 +59,11 @@ footer{
 #section-contact h1{
     color: #E1B018;
 }
+#s-down,
 #slide-arrows{
     color: #E1B018;
 }
+#s-down :hover,
 #slide-arrows a:hover{
     color: #CDCCCC;
 }
@@ -60,9 +75,13 @@ button{
     background-color: #ffffff;
 }
 /*SPACE*/
+section,
+footer{
+    width: 100%;
+}
 section{
     min-height: 600px;
-    padding: 5vmax;
+    padding: 1vmin 5vmax;
     margin: 0;
 }
 #section-home{
@@ -70,6 +89,14 @@ section{
     width: 100%;
     height: 100vh;
 }
+#home-slide-1{
+    width: 50%;
+}
+#home-slide-1 h1,
+#home-slide-1 p{
+    width: 100%;
+}
+footer > *,
 #section-about,
 #home-slide{
     width: 100%;
@@ -98,12 +125,27 @@ button{
 #contact-map iframe{
     border-radius: 10px;
 }
+footer #f-line{
+    background: #CDCCCC;
+    width: 80%;
+    height: 1px;
+}
+#news-slide{
+    margin: 100px auto;
+}
 /*DISPLAY*/
+#slide-arrows{
+    display: none;
+}
+#home-slide-1,
 body > *,
-#home-slide,#section-news,
-#section-contact{
+section,
+footer,
+footer #f-content,
+#home-slide{
     display: flex;
 }
+#partners-list,
 #news-slide{
     display: grid;
 }
@@ -112,9 +154,6 @@ nav a{
     transition: 3s;
 }
 /*BACKGROUND IMAGE*/
-#home-slide{
-    background-size: contain;
-}
 #section-about{
     background-size: cover;
 }
@@ -133,16 +172,35 @@ nav a{
 #section-partners{
     background: url('../png/back-partners-bottom.png') no-repeat bottom, url('../png/back-partners-top.png') no-repeat top;
 }
+#home-slide,
+#section-news,
+#section-partners{
+    background-size: contain;
+}
 /*FLEX*/
+#home-slide-1,
+section,
+footer,
+footer #f-content,
 #home-slide{
     align-items: center;
 }
-#section-news,
-#section-contact{
+#home-slide-1,
+section,
+footer{
+    justify-content: center;
+}
+footer #f-content{
+    justify-content: space-around;
+}
+#home-slide-1,
+section,
+footer,
+footer #f-content{
     flex-direction: column;
 }
-#news-slide,
-#partners-list{
+#partners-list,
+#news-slide{
     grid-auto-rows: 1fr;
     grid-auto-flow: row;
     gap: 2vmax;
