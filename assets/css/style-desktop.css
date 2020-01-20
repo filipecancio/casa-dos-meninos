@@ -2,10 +2,10 @@
     /*SPACE*/
     header,
     section,
-    #slide-1{
+    #home-slide{
         padding: 15vmax;
     }
-    #slide{
+    #news-slide{
         width: 50vw;
         overflow: hidden;
     }
@@ -18,8 +18,8 @@
     #section-contact{
         flex-direction: row;
     }
-    #slide,
-    #partners{
+    #news-slide,
+    #partners-list{
         grid-auto-flow: column;
     }
 }
