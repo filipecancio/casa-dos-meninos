@@ -60,6 +60,16 @@ button{
     background-color: #ffffff;
 }
 /*SPACE*/
+#section-slide{
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+#section-about,
+#slide-1{
+    width: 100%;
+    height: 100%;
+}
 .cm-card{
     width: 100%;
     height: 455px;
@@ -88,22 +98,25 @@ body > *,
 nav a{
     transition: 3s;
 }
+/*BACKGROUND IMAGE*/
+#slide-1,
+#section-about{
+    background-size: cover;
+}
 #section-slide{
     background-image: url('../jpg/fundo.jpg');
-    padding: 0;
-    width: 100%;
-    height: 100vh;
 }
 #slide-1{
-    width: 100%;
-    height: 100%;
     background: url('../png/garoto.png') no-repeat bottom;
-    background-size: cover;
-}#section-about{
-    width: 100%;
-    height: 100%;
+}
+#section-about{
     background: url('../png/sobre-fundo.png') no-repeat bottom;
-    background-size: cover;
+}
+#section-news{
+    background: url('../png/back-news.png') no-repeat bottom;
+}
+#section-partners{
+    background: url('../png/back-partners-2.png') no-repeat bottom, url('../png/back-partners.png') no-repeat top;
 }
 /*FLEX*/
 #slide-1{
