@@ -4,6 +4,10 @@
         text-align: left;
     }
     /*SPACE*/
+    #home-slide-1{
+        margin: auto 0;
+        width: 50%;
+    }
     header,
     section,
     #home-slide{
@@ -34,5 +38,8 @@
     #news-slide,
     #partners-list{
         grid-auto-flow: column;
+    }
+    .title-l{
+        align-self: flex-start;
     }
 }
