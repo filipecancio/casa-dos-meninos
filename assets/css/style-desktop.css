@@ -1,0 +1,38 @@
+@media only screen and (min-width:750px) {
+    /*FONT*/
+    h1{
+        text-align: left;
+    }
+    /*SPACE*/
+    header,
+    section,
+    #home-slide{
+        padding: 15vmax;
+    }
+    #news-slide{
+        width: 50vw;
+        overflow: hidden;
+    }
+    .cm-card{
+        width: 200px;
+        height: 300px
+    }
+    #news-slide{
+        margin: 0;
+    }
+    /*DISPLAY*/
+    #slide-arrows{
+        display: block;
+    }
+    /*FLEX*/
+    #section-news,
+    #section-contact,
+    footer #f-content{
+        flex-direction: row;
+    }
+    #partners-list,
+    #news-slide,
+    #partners-list{
+        grid-auto-flow: column;
+    }
+}
